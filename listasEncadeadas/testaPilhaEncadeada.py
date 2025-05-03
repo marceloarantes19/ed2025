@@ -12,5 +12,4 @@ while valor > 0:
 s = ""
 while not pilha.pilhaVazia():
     s = s + str(pilha.pop().getChave())
-
 print(s)
